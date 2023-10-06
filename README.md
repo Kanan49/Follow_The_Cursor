@@ -1,5 +1,8 @@
 # Follow_The_Cursor
 
+
+https://kanan49.github.io/Follow_The_Cursor/
+
 Welcome to the Cursor Animation project repository! This project showcases an interactive cursor animation using HTML and JavaScript. This README provides you with essential information to get started.
 
 Project Overview:
