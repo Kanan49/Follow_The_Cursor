@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f1f3f5;
+  overflow: hidden;
+  cursor: none;
+  width: 100vw;
+  height: 100vh;
+  color: #2f3e46;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  overflow: hidden;
+  opacity: 1;
+}
+.navbar > div {
+  padding: 0 30px;
+  font-size: 20px;
+}
+.navbar .menu {
+  margin-right: auto;
+}
+.navbar .lang {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* SOCIAL MEDIA */
+.media ul {
+  position: absolute;
+  bottom: 250px;
+  left: -140px;
+  transform: rotate(-90deg);
+}
+.media ul li {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+
+/* TEXT */
+.text {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  
+}
+.text h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -10px;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  width: 600px;
+}
+.text h1 .hide--text {
+  position: absolute;
+}
+.text h2 {
+  content: "duality";
+  position: absolute;
+  top: 0px;
+  left: -80px;
+  color: #006d77;
+  z-index: -1;
+  font-size: 150px;
+  opacity: 1;
+}
+.text h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+.text h3 .hide--text {
+  position: absolute;
+}
+.text p {
+  width: 400px;
+  font-size: 12px;
+  margin-top: 30px;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+}
+.text p .hide--text {
+  position: absolute;
+}
+
+/* SPONSOR */
+.sponsor {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  text-align: center;
+}
+.sponsor img {
+  width: 200px;
+  opacity: 1;
+  
+}
+.sponsor p {
+  margin-top: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  transform: rotate(180deg);
+}
+
+/* DISTORTION */
+.distortion {
+  display: flex;
+  width: 580px;
+  height: 720px;
+  position: absolute;
+  right: 300px;
+  bottom: 0;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 99;
+  overflow: hidden;
+}
+.overlay.first {
+  background: #83c5be;
+}
+.overlay.second {
+  background: #006d77;
+  left: 33.33%;
+}
+.overlay.third {
+  background: #2f3e46;
+  left: 66.66%;
+}
+
+
+/* FOLLOW THE CURSOR */
+
+ .circle{
+   height: 30px;
+   width: 30px;
+   border-radius: 30px;
+   background-color:black;
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
